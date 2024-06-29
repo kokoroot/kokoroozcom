@@ -1,0 +1,70 @@
+.titlePrivacyPolicy {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.textPrivacyPolicy {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  font-family: Montserrat, sans-serif;
+}
+
+.subtitlePrivacyPolicy {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.modalTitle {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 39px;
+  color: #000000;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.modalClose {
+  top: 0px;
+  right: 0px;
+  border: none;
+  cursor: pointer;
+  background: #000000;
+  border-radius: 20px;
+  padding: 11px 43px;
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+}
+
+.privacyPolicyWrap{
+  max-width: 710px;
+  position: relative;
+  padding-top: 50px;
+  margin: auto;
+  padding: 16px;
+}
+
+@media (max-width: 600px) {
+  .modalTitle {
+    font-size: 24px;
+  }
+
+  .header{
+    margin-bottom: 40px;
+  }
+}

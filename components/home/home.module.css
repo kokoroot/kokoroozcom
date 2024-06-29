@@ -1,0 +1,128 @@
+.wrap {
+  display: flex;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 22px;
+}
+
+.phonesBlock {
+  background: linear-gradient(180deg, #e0c8ff 0%, #e1f8ff 100%);
+  flex: 1;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 50px;
+}
+
+@media (max-width: 1000px) {
+  .wrap {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .phonesBlock {
+    display: none;
+  }
+}
+
+.titlePrivacyPolicy {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+}
+
+.textPrivacyPolicy {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.subtitlePrivacyPolicy {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0;
+}
+
+.infoBlock {
+  max-width: 600px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding-bottom: 60px;
+}
+
+.title {
+  font-family: SF Pro Display, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  letter-spacing: 6.5px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 57px;
+}
+
+.text {
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+  text-align: center;
+  color: #000000;
+  max-width: 300px;
+  margin: 0 auto 60px;
+}
+
+.iconsDownload {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 160px;
+  justify-content: center;
+}
+
+.footer {
+  text-align: center;
+}
+
+.copyright {
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  color: #4f4f4f;
+  margin: 0;
+}
+
+.privacyPolicyAndTerms {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  font-family: Rubik, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: #4f4f4f;
+  margin-bottom: 18px;
+}
+
+.privacyPolicyAndTerms a {
+  cursor: pointer;
+}
